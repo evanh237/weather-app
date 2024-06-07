@@ -2,19 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
   </head>
   <body class="blurred">
     <header class="header">
       <div class="header-left">
-        <img
-          src="src/icons/sun.svg"
-          alt=""
-          class="weather-icon large"
-          data-current-icon
-        />
+        <img class="weather-icon large" data-current-icon />
         <div class="header-current-temp">
           <span data-current-temp>95</span>&deg;
         </div>
@@ -24,7 +18,6 @@
           <div class="label">High</div>
           <div><span data-current-high>96</span>&deg;</div>
         </div>
-
         <div class="info-group">
           <div class="label">FL High</div>
           <div><span data-current-fl-high>101</span>&deg;</div>
@@ -56,7 +49,7 @@
 
     <section class="day-section" data-day-section>
       <div class="day-card">
-        <img src="src/icons/cloud.svg" class="weather-icon" />
+        <img src="src/icons/cloud-bolt.svg" weather-icon />
         <div class="day-card-day">Monday</div>
         <div>32&deg;</div>
       </div>
@@ -244,6 +237,7 @@
         <div><span data-temp></span><span>&deg;</span></div>
       </div>
     </template>
+
     <template id="hour-row-template">
       <tr class="hour-row">
         <td>
